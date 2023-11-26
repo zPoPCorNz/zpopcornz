@@ -29,8 +29,9 @@ html {
     line-height: 36px;
     color: black;
 }
+
 body {
-    width: 100vw;
+    width: 1440px;
     height: 100vh;
 }
 
@@ -38,12 +39,16 @@ a {
     text-decoration: none;
 }
 
-.menu-item-link:visited {
-    color: #686565;
-}
-
 ul {
     list-style-type: none;
+}
+
+.br {
+    height: 200px;
+}
+
+.menu-item-link:visited {
+    color: #686565;
 }
 
 .sr-only {
@@ -164,11 +169,25 @@ ul {
     height: 1000px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .second-page-text {
     width: 415px;
+    margin-top: 0;
 }
+
+.second-page-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color:#2000E7;
+    font-family: Poppins;
+    letter-spacing: 0.35em;
+    margin-bottom: 0;
+}
+
 .third-page {
     background-color: #FFD69633;
     display: flex;
@@ -229,6 +248,10 @@ ul {
     letter-spacing: 0.27em;
     color: #220BE8;
     margin-bottom: 0;
+}
+
+.skills-img {
+    margin-left: -100px;
 }
 
 .contact-form {
