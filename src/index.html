@@ -12,10 +12,10 @@
             <span class="logo">UniDesign</span>
             <nav class="menu-container">
                 <ul class="menu">
-                    <li class="menu-item"><a href="#">About me</a></li>
-                    <li class="menu-item"><a href="#">Projects</a></li>
-                    <li class="menu-item"><a href="#">Contacts</a></li>
-                    <li class="menu-item"><a href="#">Hire me</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">About me</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">Projects</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">Contacts</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">Hire me</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,9 +26,9 @@
                 <h3 class="front-part-title">Welcome To My PortFolio</h3>
                 <h1 class="front-part-subtitle">Hi , I am Steven UI/UX <span class="designer">Desginer</span></h1>
                 <p class="front-part-text">Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio et, plateo erat est sed turpis hoc equit</p>
-                <div>
+                <div class="buttons">
                     <button class="blue-button">Hire me</button>
-                    <button class="transparent-button">My project</button>
+                    <button class="white-button">My project</button>
                 </div>
             </div>
             <div class="front-part-image-container">
@@ -36,9 +36,9 @@
             </div>
         </section>
         <section class="second-page">
-            <div>
+            <div class="second-page-text-block">
                 <h1 class="second-page-title">About me</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has .</p>
+                <p class="second-page-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has .</p>
                 <button class="blue-button">Hire me</button>
             </div>
             <img src="../assets/images/skills.png" alt="skills">
@@ -67,15 +67,15 @@
             </div>
             <div class="contact-form">
                 <div class="forms">
-                  <div class="form-email">
+                  <div class="form-input form-email">
                     <label for="email" class="sr-only">Email</label>
                     <input id="email" type="email" placeholder="Email">
                   </div>
-                  <div class="form-password">
+                  <div class="form-input form-password">
                     <label for="password" class="sr-only">Email</label>
                     <input id="password" type="email" placeholder="Password">
                   </div>
-                  <div class="form-message">
+                  <div class="form-input form-message">
                     <label for="message" class="sr-only">Message</label>
                     <textarea id="message" placeholder="Message.."></textarea>
                   </div>
@@ -87,9 +87,13 @@
     </main>
     <footer class="footer">
         <div class="links">
-            <div class="logo-sub">
-                <span class="logo">UniDesign</span>
-                <button class="subscribe-button"></button>
+            <div class="logo-sub" style="margin-left: 80px;">
+                <span class="logo" style="letter-spacing: 0.35em;">UniDesign</span>
+                <form class="footer-form" action="">
+                    <label for="email" class="sr-only">Email</label>
+                    <input id="email" type="email" placeholder="Email">
+                    <button class="subscribe-button">Subscribe</button>
+                </form>  
             </div>
             <ul>
                 <li class="links-item bold"><a href="#">Platform</a></li>
@@ -111,7 +115,7 @@
                 <li>116 Archlor Road<br/>Broadlaband,<br/>NewYork (NYC)<br/>1205</li>
             </ul>
         </div>
-        <img class="border" src="../assets/images/Line.png" alt="border">
+        <hr noshade style="color: black; align: center; size: 3px; width: 1334px;"/>
         <div class="socials">
             <p class="CopyRighted">CopyRighted 2020-2023   All Rights Reserved.</p>
             <div class="social-link-container">
